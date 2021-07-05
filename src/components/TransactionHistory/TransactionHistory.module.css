@@ -1,0 +1,30 @@
+.transaction {
+  margin: 0 auto;
+  text-align: center;
+  background-color: #ffffff;
+  border: 1px solid #c8c3c3;
+  border-collapse: collapse;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.55);
+}
+
+.head {
+  width: 250px;
+  border: 1px solid #c8c3c3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #2d9cdb;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.data {
+  width: 250px;
+  border: 1px solid #c8c3c3;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #444442;
+}
+
+.item:nth-child(2n) {
+  background-color: #c9c9c9;
+}
